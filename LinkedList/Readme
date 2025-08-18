@@ -1,0 +1,20 @@
+# Linked List 
+
+Day 1 of Learning LinkedList: 
+
+1st---> I created A Custom Linkedin By Manually adding Address to Nodes
+	Getting Clear understanding of How the Node Are Acutally created and Store Data And Address of Next Data
+
+2nd ---> I Created a class  For Node And LinkedList And ADD features in it 
+         1.Create LinkedList
+		 2.Len of LinkedList
+		 3.Append
+		 4.Traverse --> Useing Magic Method (__str__)
+		 5.Insert
+		 -->(i)From Head
+		 	(ii)From Tail
+			(iii)Using Index
+		 6.Delete
+		 -->(i)From Head
+		 	(ii)From Tail
+		
