@@ -29,15 +29,14 @@ class Linkedlist:
         self.n += 1
     def __str__(self):
         result = ''
-        if self.head == None:
-            return 'Empty LinkedList'
-        else:
-            curr = self.head
-            while curr != None:
-                result = result + str(curr.data) + "-->"
-                curr = curr.next
+        self.isempty()
+        
+        curr = self.head
+        while curr != None:
+            result = result + str(curr.data) + "-->"
+            curr = curr.next
 
-            return (result +'None')
+        return (result +'None')
     def insert(self,index,value):
         count = 0
         if 0<=index<self.n:
@@ -58,26 +57,26 @@ class Linkedlist:
         self.head = None
         self.tail = None
     def delete(self):
-        if self.n == 0:
-            return 'Empty LinkedList'
-        else:
-            temp = self.head.next
-            self.head = temp
-            self.n -= 1
-    
-
+        self.isempty()
         
-
-        
-
-                
+        temp = self.head.next
+        self.head = temp
+        self.n -= 1
+    def pop(self):
+        self.isempty()
 
        
+    def isempty(self):
+         if self.n == 0:
+            return 'Empty LinkedList'
+         
+        
 
+        
 
+        
 
-
-
+        
 
 l1 = Linkedlist()
 l1.create(10)
@@ -87,15 +86,10 @@ l1.create(50)
 l1.create(70)
 l1.create(40)
 l1.create(50)
-print(len(l1))
-l1.append(100)
+
 print(l1)
-print(l1.insert(9,40))
-print(l1)
-# l1.clear()
-# print(l1)
-print(len(l1))
 l1.delete()
 print(l1)
-print(len(l1))
-# l1.head()
+l1.append(100)
+l1.append(200)
+print(l1)
