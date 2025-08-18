@@ -17,4 +17,5 @@ Day 1 of Learning LinkedList:
 		 6.Delete
 		 -->(i)From Head
 		 	(ii)From Tail
-		
+		 7.Search
+		 -->(i)  Using Value
