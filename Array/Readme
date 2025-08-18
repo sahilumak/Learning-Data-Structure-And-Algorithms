@@ -1,0 +1,31 @@
+
+# Arrays — Notes & Practice
+
+## 📖 What are Arrays?
+Arrays are contiguous blocks of memory that store elements of the same type.  
+They allow **O(1) random access** but can be expensive for insertion/deletion in the middle since shifting is required.
+
+In Python, `list` behaves like a dynamic array (resizes automatically).
+
+---
+
+## ⚡ Operations & Complexity
+
+| Operation             | Time Complexity | Notes                                    |
+|-----------------------|-----------------|------------------------------------------|
+| Access by index       | O(1)            | Direct memory access                     |
+| Search (unsorted)     | O(n)            | Linear scan                              |
+| Search (sorted)       | O(log n)        | Binary Search                            |
+| Insert at end         | O(1) amortized  | May trigger resizing                     |
+| Insert/delete middle  | O(n)            | Requires shifting                        |
+| Delete at end         | O(1)            | Constant if no resizing                  |
+
+---
+
+## 🧩 Common Patterns
+- **Two Pointers** → solving sum problems, removing duplicates, merging arrays.  
+- **Sliding Window** → subarrays with conditions (sum, length, distinct elements).  
+- **Prefix Sum** → range queries, subarray sums.  
+- **Kadane’s Algorithm** → maximum subarray sum.  
+
+---
