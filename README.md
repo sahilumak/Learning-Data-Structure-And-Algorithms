@@ -12,7 +12,7 @@ The `/blog` folder has write-ups of what I learned, pitfalls, and interview-styl
 
 ## 🧭 Roadmap & Progress
 - [x] Arrays — basics, two-pointer, sliding window intro
-- [ ] Linked List — singly, doubly, fast/slow pointers (current)
+- [x] Linked List — singly, doubly, fast/slow pointers (current)
 - [ ] Stack & Queue
 - [ ] Hashing (HashMap / Dictionary)
 - [ ] Recursion & Backtracking
@@ -24,4 +24,4 @@ The `/blog` folder has write-ups of what I learned, pitfalls, and interview-styl
 
 > I update this checklist as I learn and push code.
 
-## 📂 Structure
+
