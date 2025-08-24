@@ -21,7 +21,7 @@ Day 1 of Learning LinkedList:
 		 -->(i)  Using Value
 
 
-Day 1 of Learning LinkedList: 
+Day 2 of Learning LinkedList: 
 
 1st ---> I Created a Doubly LinkedList
 	---> Including Previous Node Address
@@ -36,3 +36,18 @@ Day 1 of Learning LinkedList:
 		Note:
 		--> Building This Many Problem arives 
 		--> So i created A Class Veriable Peak To maintain for ALl Methods 
+
+
+Day 3 of Learning LinkedList:
+
+	1st --->Solve a Question Using LinkedList
+			 Question 1--> Write a Python Program to find the maximum value in a linkedlist:
+
+			 #Question 2--->Given a Linkedlist containing whole numbers,write a python function which finds and returns the Sum of all the elements at the odd position in the given linkedlist:
+
+			 Question 3--->Write a program to reverse the Linkedlist:
+
+			 # Question 4 ---> Remove Duplicates From Linkedlist:
+	
+
+
