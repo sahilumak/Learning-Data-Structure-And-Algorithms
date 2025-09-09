@@ -13,7 +13,7 @@ The `/blog` folder has write-ups of what I learned, pitfalls, and interview-styl
 ## 🧭 Roadmap & Progress
 - [x] Arrays — basics, two-pointer, sliding window intro
 - [x] Linked List — singly, doubly, fast/slow pointers (current)
-- [ ] Stack & Queue
+- [x] Stack & Queue
 - [ ] Hashing (HashMap / Dictionary)
 - [ ] Recursion & Backtracking
 - [ ] Trees (BST, traversal, DFS/BFS)
