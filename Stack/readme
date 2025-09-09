@@ -1,0 +1,35 @@
+# Stack 
+
+Day 1 of Learning Stack: 
+
+1st---> I created A Stack Using LinkedList 
+	Getting Clear understanding of How the Node Are Acutally created and Store Data And Address of Next Data
+	Created Push and Pop Methods
+
+2nd ---> I Created a class  For Node and Stack And ADD features in it 
+         1.Push
+		 2.Pop
+		 3.Peek
+		 4.Traverse --> Useing Magic Method (__str__)
+		 
+
+Day 2 of Learning Stack: 
+
+1st ---> I Created Stack Data structure
+	---> Solved Questions on Stack
+	
+
+
+Day 3 of Learning Stack:
+
+	1st --->Solve a Question Using LinkedList
+			 Question 1--> Write a Python Program String Reverse Using Stack:
+
+			 #Question 2--->Undo Redo  Operations
+
+			 Question 3--->Write a program to Bracket Stabality:
+
+		
+	
+
+
